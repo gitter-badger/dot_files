@@ -22,7 +22,7 @@ if 1
   " Syntax highlight
   Bundle 'Markdown'
 
-  Bundle 'AutoComplPop'
+  "Bundle 'AutoComplPop'
 
   "   scala
   Bundle 'scala.vim'
@@ -54,13 +54,13 @@ if 1
 
   set nocompatible
   set expandtab
-  set list
+  "set list
   set number
   set showmatch
 
   set tabstop=2
   set shiftwidth=2
-  set backspace=indent,eol,start
+  "set backspace=indent,eol,start
 
   colorscheme hybrid
 
