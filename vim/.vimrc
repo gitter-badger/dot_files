@@ -58,6 +58,8 @@ if 1
   set number
   set showmatch
 
+  set paste
+
   set tabstop=2
   set shiftwidth=2
   "set backspace=indent,eol,start
@@ -81,4 +83,3 @@ if 1
     autocmd QuickFixCmdPost vimgrep cwindow
   augroup END
 endif " end of 'if 1'
-

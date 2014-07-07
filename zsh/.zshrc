@@ -2,6 +2,14 @@ if [ -e /etc/profile ] ; then
   . /etc/profile
 fi
 
+# android-sdk
+export ANDROID_HOME=/usr/local/opt/android-sdk
+export PATH=$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:/opt/local/bin:/opt/local/sbin/:$PATH
+
+# play
+export PLAY_OPTS="-XX:PermSize=512m -XX:MaxPermSize=512m -Xms2048m -Xmx2048m -Xss10m -XX:+UseParallelGC"
+export JAVA_OPTS="-Xss10m"
+
 # fpath
 if [ -d "/usr/local/share/zsh-completions" ]; then
   fpath=(/usr/local/share/zsh-completions $fpath)
