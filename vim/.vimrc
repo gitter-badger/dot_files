@@ -64,7 +64,7 @@ if 1
   set shiftwidth=2
   "set backspace=indent,eol,start
 
-  colorscheme hybrid
+"  colorscheme hybrid
 
   augroup VIMRC
     autocmd!
