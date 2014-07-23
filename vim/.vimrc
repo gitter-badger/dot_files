@@ -71,8 +71,9 @@ if 1
     " 
     autocmd VimEnter,BufWinEnter,WinEnter * setlocal cursorline
     autocmd WinLeave * setlocal nocursorline
-    autocmd InsertEnter * highlight CursorLine ctermbg=0
-    autocmd InsertLeave * highlight CursorLine ctermbg=235
+    "autocmd InsertEnter * highlight CursorLine ctermbg=500
+    "autocmd InsertLeave * highlight CursorLine ctermbg=500
+
     " File types
     "autocmd BufRead,BufNewFile *.scala set filetype=scala
 
